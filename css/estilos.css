@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box;
+    -moz-box-align: border-box;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar{
+    width: 7px;
+   background: #37474F;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #D5D8DC  ;
+    border-radius: 8px;
+
+}
+
+.banner h1{
+	width: 100%;
+ 
+	padding: 9rem 3rem;
+	text-align: center;
+	background-image: url("../img/fondo1.jpg");
+	background-color: rgba(0,0,0,.8);
+	background-blend-mode: soft-light;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+}
+
+h1{
+    font-size: 70px;
+}
+
+.banner{
+	color:#f1f1f1;
+}
+
+.contenedor{
+	width: 100%;
+	height: 60px;
+	background:#151515;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5rem;
+	box-sizing: border-box;
+	position: sticky;
+	top: 0;
+	z-index: 3;
+}
+ .logo{
+ 	width: 40px;
+ 	margin: 0;
+ }
+ .logo img{
+ 	width: 100%;
+ }
+
+.option{
+	color: #f1f1f1;
+	margin: 0 1.5rem;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+	position: all;
+}
+
+.option:hover{
+    background: #E6344A;
+    border-radius: 13px;
+}
+
+
+
+footer {
+    background-color: #151515;
+    
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    color: white;
+    clear:both;
+    padding: 10px 0px;
+    text-align: center;
+  }
+
+
+
+
+
+
+  body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/ark_2.jpeg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body:before{
+    content: "";
+    width: 100%;
+    min-height: 310vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image:linear-gradient(45deg, #2b5876 0%, #4e4376 100%) ;
+    opacity: .7;
+    z-index: -1;
+
+
+
+}
+
+body::-webkit-scrollbar{
+    width: 7px;
+   background: #37474F;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #D5D8DC  ;
+    border-radius: 8px;
+
+}
+
+
+/*secciones */
+section{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 40px;    
+    align-items: center;
+    color: #ffffff;
+}
+
+section h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+section p{
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+section img{
+    height: 60%;
+}
+
+
+section a{
+    display: inline-block;
+    padding: 7px 0;
+    color: #f1f1f1;
+    text-emphasis: none;
+    width: 100px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6);
+    border:rgba(255, 255, 255, 0.6);
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+section a:hover{
+  background: rgba(26, 188, 156,.6);
+}
+
+html{
+    scroll-behavior: smooth;
+}
